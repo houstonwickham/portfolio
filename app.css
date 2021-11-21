@@ -1,0 +1,33 @@
+/* global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    background: #13161b;
+    color: #ffffff;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* header styles */
+/* about styles */
+/* portfolio styles */
+/* connect styles */
+/* footer styles */

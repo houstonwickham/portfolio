@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Houston Wickham</title>
     <link rel="stylesheet" href="app.css">
-    <link rel="shortcut icon" type="image/png" href="images/www-logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="files/images/www-logo.png"/>
+    <script src="https://kit.fontawesome.com/17dcec60eb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section id="header">
-        <div id="logo-holder"><img src="images/www-logo.png" alt="Houston Wickham Logo"></div>
+        <div id="logo-holder"><img src="files/images/www-logo.png" alt="Houston Wickham Logo"></div>
         <nav>
             <ul>
                 <li><a href="#portfolio">Portfolio</a></li>
@@ -22,12 +23,17 @@
         <div id="copy-container">
             <h1>Houston Wickham</h1>
             <ul>
-                <li><a href="https://www.linkedin.com/in/houston-wickham-78040b91/" target="_blank"><img src="images/linkedin.png" alt="Linkedin"></a></li>
-                <li><a href="https://github.com/houstonwickham" target="_blank"><img src="images/github.png" alt="Github"></a></li>
-                <li><a href="mailto:houstonwickham@gmail.com" target="_blank"><img src="images/email.png" alt="Email"></a></li>
+                <li><a href="https://www.linkedin.com/in/houston-wickham-78040b91/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/houstonwickham" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                <li><a href="mailto:houstonwickham@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
             </ul>
             <h3>Front-end developer</h3>
-            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil accusantium qui dolores amet fugit obcaecati quo. Architecto, qui incidunt. Repellat sint perferendis quisquam omnis error! Debitis inventore consequuntur quod.</div>
+            <div class="text">I am a front-end developer with a specialty in email development</div>
+            <div id="button-container">
+                <a href="#contact"><button>Get in touch</button></a>
+                <a href="files\Houston_Wickham_Resume.PDF" target="_blank"><button>See my resume</button></a>
+            </div>
+           
         </div>
     </section>
     <section id="portfolio">
@@ -52,12 +58,12 @@
         <h2>Let's Connect</h2>
         <div class="text">Please reach out via email or Linkedin with any inquiries. I look forward to hearing from you.</div>
         <ul>
-            <li><a href="https://www.linkedin.com/in/houston-wickham-78040b91/" target="_blank">Linkedin</a></li>
-            <li><a href="mailto:houstonwickham@gmail.com" target="_blank">Email</a></li>
+            <li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/houston-wickham-78040b91/" target="_blank">Linkedin</a></li>
+            <li><i class="far fa-envelope"></i><a href="mailto:houstonwickham@gmail.com" target="_blank">Email</a></li>
         </ul>
     </section>
-    <section id="footer">
-        <div id="copyright">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script> Houston Wickham | &#10084;&#65039;Made with love&#10084;&#65039;</div>
+    <section id="footer"> 
+        <div id="copyright">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script> Houston Wickham | Made with love&#10084;&#65039;</div>
         <div><a href="#header">Go to top</a></div>
     </section>
     <script src="app.js"></script>
