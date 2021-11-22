@@ -14,6 +14,7 @@ body, html {
     width: 100%;
     background: #13161b;
     color: #ffffff;
+    font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -24,10 +25,76 @@ a {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    color: #1fc779;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a:hover {
+    font-size: 110%;
+    color: #c2c2c2;
+}
+
+strong {
+    color: #1fc779;
+    font-weight:500;
 }
 
 /* header styles */
+
+#header {
+    padding: 20px;
+}
+
+#header img {
+    width: 80px;
+}
 /* about styles */
+
+#about {
+    padding-bottom: 80px;
+}
+
+#about ul {
+    display: flex;
+    justify-content: center;
+}
+
+#about li {
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+#about div {
+    padding: 20px 15%;
+}
 /* portfolio styles */
 /* connect styles */
 /* footer styles */
+
+#footer {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer div {
+    font-size: 14px;
+    padding: 10px 80px;
+}
