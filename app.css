@@ -7,14 +7,13 @@
   }
 
 body, html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 16px;
     height: 100%;
     width: 100%;
-    background: #13161b;
+    background: #121720;
     color: #ffffff;
-    font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -30,7 +29,8 @@ a {
 
 h1 {
     font-size: 64px;
-    line-height: 64px;
+    line-height: 68px;
+    text-shadow: -4px 2px 3px #1fc779;
 }
 
 h2 {
@@ -38,12 +38,15 @@ h2 {
 }
 
 h3 {
-    color: #1fc779;
     font-size: 18px;
 }
 
 li {
     list-style-type: none;
+}
+
+li a i {
+    color: #1fc779;
 }
 
 li a:hover {
@@ -56,19 +59,52 @@ strong {
     font-weight:500;
 }
 
-/* header styles */
-
-#header {
-    padding: 20px;
+button {
+    border: solid 2px #1fc779;
+    border-radius: 20px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #2e2e2e;
+    background-color: #bebebd;
+    padding: 0 20px;
+    margin: 0 5px;
+    cursor: pointer;
+	box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+	transition: 0.2s all;
+    -webkit-tap-highlight-color: transparent;
 }
+button:active {
+	background-color: #a1a1a1 !important;
+	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	transform: scale(0.98);
+}
+button:hover {
+    background-color: #afafae;
+}
+
+/* header styles */
 
 #header img {
     width: 80px;
 }
+
+#header #logo-holder {
+    margin-top: -25px;
+}
+
+#header ul {
+    display: flex;
+    justify-content: end;
+    padding: 20px 20px 0 0;
+}
+
+#header li {
+    padding: 0 10px;
+}
 /* about styles */
 
 #about {
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 
 #about ul {
@@ -81,11 +117,24 @@ strong {
     font-size: 20px;
 }
 
-#about div {
-    padding: 20px 15%;
+#about div .text {
+    padding: 20px 0;
+    max-width: 760px;
+    margin: 0 auto;
 }
+
 /* portfolio styles */
+
+#portfolio {
+    padding: 0 0 80px;
+}
+
 /* connect styles */
+
+#contact {
+    padding: 0 0 80px;
+}
+
 /* footer styles */
 
 #footer {
