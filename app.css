@@ -170,14 +170,22 @@ button:hover {
     color: #1fc779;
 }
 
+#portfolio #projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 40px;
+}
+
 #portfolio img {
-    max-width: 500px;
+    height: 275px;
+    width: 500px;
     padding: 0 10px 5px;
     border-radius: 5%
 }
 
 #portfolio .text {
-    max-width: 760px;
+    max-width: 600px;
+    text-align: left;
 }
 
 #portfolio .text a {
