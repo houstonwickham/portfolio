@@ -145,6 +145,39 @@ button:hover {
     padding: 0 0 80px;
 }
 
+#portfolio h3 {
+    padding-top: 27px;
+    padding-bottom: 10px;
+    color: #1fc779;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #1fc779;
+}
+
+#portfolio img {
+    max-width: 500px;
+    padding: 0 10px 5px;
+    border-radius: 5%
+}
+
+#portfolio .text {
+    max-width: 760px;
+}
+
+#portfolio .text a {
+    color: #1fc779;
+    text-decoration: underline;
+}
+
+#portfolio .project-container {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* contact styles */
 
 #contact {
