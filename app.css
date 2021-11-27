@@ -16,6 +16,11 @@ body, html {
     color: #ffffff;
 }
 
+input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
+
 a {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
@@ -199,6 +204,50 @@ button:hover {
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0e0";
     color: #ffffff;
     padding: 0 5px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input {
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#contact textarea {
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#contact #message {
+    min-height: 100px;
+}
+
+#contact #submit {
+    border: solid 2px #1fc779;
+    border-radius: 20px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #2e2e2e;
+    background-color: #bebebd;
+    padding: 0 20px;
+    margin: 0 5px;
+    cursor: pointer;
+	box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+	transition: 0.2s all;
+    -webkit-tap-highlight-color: transparent;
+}
+#contact #submit:active {
+	background-color: #a1a1a1 !important;
+	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	transform: scale(0.98);
+}
+#contact #submit:hover {
+    background-color: #afafae;
 }
 
 /* footer styles */
