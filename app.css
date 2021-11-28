@@ -109,7 +109,7 @@ button:hover {
 /* about styles */
 
 #about {
-    padding: 80px 0;
+    padding: 80px 20px;
 }
 
 #about #copy-container {
@@ -194,7 +194,7 @@ button:hover {
 }
 
 #portfolio .project-container {
-    padding-bottom: 30px;
+    padding: 0 20px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -288,5 +288,93 @@ button:hover {
 @media (hover:none), (hover:on-demand) {
     li a:hover {
         font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #portfolio img {
+        height: 230px;
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #portfolio #projects {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 40px;
+    }
+    #portfolio .text {
+        text-align: center;
+    }
+
+    #portfolio img {
+        height: 230px;
+        width: 420px;
+    }
+    #contact {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    #contact .left {
+        padding-top: 20px;
+    }
+    #contact ul {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #header ul {
+        padding: 0;
+        justify-content: center;
+    }
+    #header #logo-holder {
+        margin-top: 20px;
+    }
+    #about #copy-container {
+        flex-direction: column;
+    }
+    #about #copy-container #divider {
+        display: none;
+    }
+    #about div .text {
+        text-align: center;
+    }
+    #about div #button-container {
+        justify-content: center;
+    }
+    #portfolio img {
+        height: 198px;
+        width: 365px;
+    }
+    #footer {
+        flex-direction: column;
+        padding: 0 20px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #portfolio img {
+        height: 190px;
+        width: 330px;
+    }
+    #about div #button-container {
+        flex-direction: column;
+    }
+    #about div #button-container button {
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 380px) {
+    #portfolio img {
+        height: 115px;
+        width: 220px;
     }
 }
