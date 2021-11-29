@@ -233,7 +233,9 @@ button:hover {
     margin-bottom: 20px;
     width: 300px;
 }
-
+#contact #submit {
+    width: auto;
+}
 #contact textarea {
     padding: 5px;
     margin-bottom: 20px;
@@ -358,6 +360,9 @@ button:hover {
         flex-direction: column;
         padding: 0 20px 20px;
     }
+    #contact {
+        padding: 0 20px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -370,6 +375,15 @@ button:hover {
     }
     #about div #button-container button {
         margin: 10px;
+    }
+    #contact input {
+        width: 200px;
+    }
+    #contact #submit {
+        width: auto;
+    }
+    #contact textarea {
+        width: 200px;
     }
 }
 @media screen and (max-width: 380px) {
