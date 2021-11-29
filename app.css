@@ -173,6 +173,7 @@ button:hover {
 #portfolio #projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0 40px;
 }
 
 #portfolio img {
@@ -304,6 +305,9 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr;
         padding: 0 40px;
+    }
+    #portfolio .project-container {
+        margin: 0 auto;
     }
     #portfolio .text {
         text-align: center;
