@@ -303,8 +303,8 @@ button:hover {
 @media screen and (max-width: 1000px) {
     #portfolio #projects {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 0
+        grid-template-columns: 1fr;
+        padding: 0;
     }
     #portfolio .project-container {
         margin: 0 auto;
