@@ -380,13 +380,13 @@ button:hover {
         margin: 10px;
     }
     #contact input {
-        width: 200px;
+        width: 300px;
     }
     #contact #submit {
         width: auto;
     }
     #contact textarea {
-        width: 200px;
+        width: 300px;
     }
 }
 @media screen and (max-width: 380px) {
