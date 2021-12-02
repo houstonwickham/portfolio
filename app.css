@@ -74,11 +74,11 @@ button {
 	transition: 0.2s all;
     -webkit-tap-highlight-color: transparent;
 }
-button:active {
+/* button:active {
 	background-color: #a1a1a1 !important;
 	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 	transform: scale(0.98);
-}
+} */
 button:hover {
     background-color: #afafae;
 }
