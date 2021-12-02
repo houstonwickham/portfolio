@@ -42,10 +42,6 @@ h2 {
     font-size: 40px;
 }
 
-h3 {
-    font-size: 18px;
-}
-
 li {
     list-style-type: none;
 }
@@ -110,6 +106,10 @@ button:hover {
 
 #about {
     padding: 80px 20px;
+}
+
+#about h2 {
+    font-size: 18px;
 }
 
 #about #copy-container {
@@ -327,7 +327,9 @@ button:hover {
     #contact ul {
         display: flex;
         justify-content: center;
-        padding: 10px;
+    }
+    #contact ul li {
+        padding: 10px 5px 0px;
     }
 }
 
@@ -348,6 +350,10 @@ button:hover {
     }
     #about #copy-container #divider {
         display: none;
+    }
+    #about li {
+        padding: 0 8px;
+        font-size: 28px;
     }
     #about div .text {
         text-align: center;
