@@ -1,401 +1,408 @@
 /* global styles */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-body, html {
-    font-family: 'Oswald', Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 16px;
-    height: 100%;
-    width: 100%;
-    background: #121720;
-    color: #ffffff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-  }
+body,
+html {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  background: #121720;
+  color: #ffffff;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
 
 a {
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
 }
 
 h1 {
-    font-size: 64px;
-    line-height: 68px;
-    text-shadow: -4px 2px 3px #1fc779;
+  font-size: 64px;
+  line-height: 68px;
+  text-shadow: -4px 2px 3px #1fc779;
 }
 
 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li a i {
-    color: #1fc779;
+  color: #1fc779;
 }
 
 li a:hover {
-    font-size: 110%;
-    color: #c2c2c2;
+  font-size: 110%;
+  color: #c2c2c2;
 }
 
 strong {
-    color: #1fc779;
-    font-weight:500;
+  color: #1fc779;
+  font-weight: 500;
 }
 
 button {
-    border: solid 2px #1fc779;
-    border-radius: 20px;
-    font-family: 'Oswald', Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #2e2e2e;
-    background-color: #bebebd;
-    padding: 0 20px;
-    margin: 0 5px;
-    cursor: pointer;
-	box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-	transition: 0.2s all;
-    -webkit-tap-highlight-color: transparent;
+  border: solid 2px #1fc779;
+  border-radius: 20px;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #2e2e2e;
+  background-color: #bebebd;
+  padding: 0 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transition: 0.2s all;
+  -webkit-tap-highlight-color: transparent;
 }
 button:active {
-	background-color: #a1a1a1 !important;
-	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-	transform: scale(0.98);
+  background-color: #a1a1a1 !important;
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  transform: scale(0.98);
 }
 button:hover {
-    background-color: #afafae;
+  background-color: #afafae;
 }
 
 /* header styles */
 
 #header img {
-    width: 80px;
+  width: 80px;
 }
 
 #header #logo-holder {
-    margin-top: -25px;
+  margin-top: -25px;
 }
 
 #header ul {
-    display: flex;
-    justify-content: end;
-    padding: 20px 20px 0 0;
+  display: flex;
+  justify-content: end;
+  padding: 20px 20px 0 0;
 }
 
 #header li {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 /* about styles */
 
 #about {
-    padding: 80px 20px;
+  padding: 80px 20px;
 }
 
 #about h2 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 #about #copy-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
 }
 
 #about #copy-container div {
-    max-width:480px;
+  max-width: 480px;
 }
 
 #about #copy-container #divider {
-    height: 240px;
-    border-left: 2px solid #1fc779;
+  height: 240px;
+  border-left: 2px solid #1fc779;
 }
 
 #about #copy-container #button-container {
-    display: flex;
+  display: flex;
 }
 
 #about #copy-container button {
-    margin: 0 10px 0 0;
+  margin: 0 10px 0 0;
 }
 
 #about ul {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #about li {
-    padding: 0 5px;
-    font-size: 20px;
+  padding: 0 5px;
+  font-size: 20px;
 }
 
 #about div .text {
-    padding: 20px 0;
-    max-width: 760px;
-    margin: 0 auto;
-    text-align: left;
+  padding: 20px 0;
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-/* portfolio styles */
+/* recent projects styles */
 
-#portfolio {
-    padding: 80px 0;
+#recent-projects {
+  padding: 80px 0;
 }
 
-#portfolio h3 {
-    padding-top: 27px;
-    padding-bottom: 10px;
-    color: #1fc779;
+#recent-projects h3 {
+  padding-top: 27px;
+  padding-bottom: 10px;
+  color: #1fc779;
 }
 
-#portfolio a {
-    text-decoration: none;
-    color: #1fc779;
+#recent-projects a {
+  text-decoration: none;
+  color: #1fc779;
 }
 
-#portfolio #projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 40px;
+#recent-projects #projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 40px;
 }
 
-#portfolio img {
-    height: 275px;
-    width: 500px;
-    padding: 0 10px 5px;
-    border-radius: 5%
+#recent-projects img {
+  height: 275px;
+  width: 500px;
+  padding: 0 10px 5px;
+  border-radius: 5%;
 }
 
-#portfolio .text {
-    max-width: 600px;
-    text-align: left;
+#recent-projects .text {
+  max-width: 600px;
+  text-align: left;
 }
 
-#portfolio .text a {
-    color: #1fc779;
-    text-decoration: underline;
+#recent-projects .text a {
+  color: #1fc779;
+  text-decoration: underline;
 }
 
-#portfolio .project-container {
-    padding: 0 20px 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#recent-projects .project-container {
+  padding: 0 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* contact styles */
 
 #contact {
-    padding: 0 0 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7%;
-    text-align:left;
+  padding: 0 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  text-align: left;
 }
 
 #contact #linkedin::before {
-    font-family: "Font Awesome 5 Brands"; font-weight: 900; content: "\f0e1";
-    color: #ffffff;
-    padding: 0 5px;
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: '\f0e1';
+  color: #ffffff;
+  padding: 0 5px;
 }
 
 #contact #email::before {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0e0";
-    color: #ffffff;
-    padding: 0 5px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f0e0';
+  color: #ffffff;
+  padding: 0 5px;
 }
 
 #contact form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #contact input {
-    padding: 5px;
-    margin-bottom: 20px;
-    width: 300px;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 300px;
 }
 #contact #submit {
-    width: auto;
+  width: auto;
 }
 #contact textarea {
-    padding: 5px;
-    margin-bottom: 20px;
-    width: 300px;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 300px;
 }
 
 #contact #message {
-    min-height: 100px;
+  min-height: 100px;
 }
 
 #contact .text {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 #contact #submit {
-    border: solid 2px #1fc779;
-    border-radius: 20px;
-    font-family: 'Oswald', Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #2e2e2e;
-    background-color: #bebebd;
-    padding: 0 20px;
-    margin: 0 5px;
-    cursor: pointer;
-	box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-	transition: 0.2s all;
-    -webkit-tap-highlight-color: transparent;
+  border: solid 2px #1fc779;
+  border-radius: 20px;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #2e2e2e;
+  background-color: #bebebd;
+  padding: 0 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transition: 0.2s all;
+  -webkit-tap-highlight-color: transparent;
 }
 #contact #submit:active {
-	background-color: #a1a1a1 !important;
-	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-	transform: scale(0.98);
+  background-color: #a1a1a1 !important;
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  transform: scale(0.98);
 }
 #contact #submit:hover {
-    background-color: #afafae;
+  background-color: #afafae;
 }
 
 /* footer styles */
 
 #footer {
-    padding-top: 80px;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #footer div {
-    font-size: 14px;
-    padding: 10px 80px;
+  font-size: 14px;
+  padding: 10px 80px;
 }
 
 /* mobile styles */
 
 @media screen and (max-width: 1200px) {
-    #portfolio img {
-        height: 230px;
-        width: 420px;
-    }
+  #recent-projects img {
+    height: 230px;
+    width: 420px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    #portfolio #projects {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 0;
-    }
-    #portfolio .project-container {
-        margin: 0 auto;
-    }
-    #portfolio .text {
-        text-align: center;
-    }
+  #recent-projects #projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  #recent-projects .project-container {
+    margin: 0 auto;
+  }
+  #recent-projects .text {
+    text-align: center;
+  }
 
-    #portfolio img {
-        height: 230px;
-        width: 420px;
-    }
-    #contact {
-        text-align: center;
-        flex-direction: column-reverse;
-    }
-    #contact .left {
-        padding-top: 20px;
-    }
-    #contact ul {
-        display: flex;
-        justify-content: center;
-    }
-    #contact ul li {
-        padding: 10px 5px 0px;
-    }
+  #recent-projects img {
+    height: 230px;
+    width: 420px;
+  }
+  #contact {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  #contact .left {
+    padding-top: 20px;
+  }
+  #contact ul {
+    display: flex;
+    justify-content: center;
+  }
+  #contact ul li {
+    padding: 10px 5px 0px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    #header {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    #header ul {
-        padding: 0;
-        justify-content: center;
-    }
-    #header #logo-holder {
-        margin-top: 20px;
-    }
-    #about #copy-container {
-        flex-direction: column;
-    }
-    #about #copy-container #divider {
-        display: none;
-    }
-    #about li {
-        padding: 0 8px;
-        font-size: 28px;
-    }
-    #about div .text {
-        text-align: center;
-    }
-    #about div #button-container {
-        justify-content: center;
-    }
-    #portfolio img {
-        height: 198px;
-        width: 365px;
-    }
-    #footer {
-        flex-direction: column;
-        padding: 0 20px 20px;
-    }
-    #contact {
-        padding: 0 20px 100px;
-    }
-    li a:hover {
-        font-size: 100% !important;
-    }
+  #header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #header ul {
+    padding: 0;
+    justify-content: center;
+  }
+  #header #logo-holder {
+    margin-top: 20px;
+  }
+  #about #copy-container {
+    flex-direction: column;
+  }
+  #about #copy-container #divider {
+    display: none;
+  }
+  #about li {
+    padding: 0 8px;
+    font-size: 28px;
+  }
+  #about div .text {
+    text-align: center;
+  }
+  #about div #button-container {
+    justify-content: center;
+  }
+  #recent-projects img {
+    height: 198px;
+    width: 365px;
+  }
+  #footer {
+    flex-direction: column;
+    padding: 0 20px 20px;
+  }
+  #contact {
+    padding: 0 20px 100px;
+  }
+  li a:hover {
+    font-size: 100% !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    #portfolio img {
-        height: 190px;
-        width: 330px;
-    }
-    #about div #button-container {
-        flex-direction: column;
-    }
-    #about div #button-container button {
-        margin: 10px;
-    }
-    #contact input {
-        width: 300px;
-    }
-    #contact #submit {
-        width: auto;
-    }
-    #contact textarea {
-        width: 300px;
-    }
+  #recent-projects img {
+    height: 190px;
+    width: 330px;
+  }
+  #about div #button-container {
+    flex-direction: column;
+  }
+  #about div #button-container button {
+    margin: 10px;
+  }
+  #contact input {
+    width: 300px;
+  }
+  #contact #submit {
+    width: auto;
+  }
+  #contact textarea {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 380px) {
-    #portfolio img {
-        height: 115px;
-        width: 220px;
-    }
+  #recent-projects img {
+    height: 115px;
+    width: 220px;
+  }
 }
