@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all 0.3s;
+  overflow: hidden;
 }
 
 body,
@@ -296,6 +298,31 @@ button:hover {
 }
 
 /* mobile styles */
+
+@media screen and (min-width: 1800px) {
+  html,
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 96px;
+    line-height: 98px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  #about li {
+    padding: 0px 8px;
+    font-size: 28px;
+  }
+  button {
+    font-size: 24px;
+  }
+  #contact #submit {
+    font-size: 24px;
+  }
+}
 
 @media screen and (min-width: 2200px) {
   #recent-projects #projects {
